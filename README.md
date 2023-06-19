@@ -21,7 +21,7 @@ To use the Product-Service Playground, follow the steps below:
 
 1. Click below to access the application.
 
-  [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Fliproom/product-service)
+  [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/Fliproom/product-service)
 
 2. In the StackBlitz environment, you will see the project code and a preview of the application.
 
