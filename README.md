@@ -19,7 +19,7 @@ Please note that this project is solely intended for evaluation purposes and sho
 ## Usage Instructions
 To use the Product-Service Playground, follow the steps below:
 
-1. Visit the [StackBlitz fork of the project](https://stackblitz.com/fork/product-service-playground) to access the application.
+1. Visit the [StackBlitz fork of the project](https://stackblitz.com/fork/product-service) to access the application.
 
 2. In the StackBlitz environment, you will see the project code and a preview of the application.
 
