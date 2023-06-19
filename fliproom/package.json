@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "gcp-build": "",
-    "start": "node server.js",
+    "dev": "ng run app:serve --host=localhost --port=8100",
     "build": "ng build",
     "build:staging": "ng build --configuration=staging",
     "build:prod": "ng build --configuration=production",
