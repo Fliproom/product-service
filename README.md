@@ -15,30 +15,64 @@ The scope of the Product-Service Playground includes the following functionality
 5. Simulate API calls to retrieve, update, and create products.
 
 Please note that this project is solely intended for evaluation purposes and should not be considered as a fully functional production application.
+To set up and run the Ionic project, ensure you have the following prerequisites installed:
 
-## Usage Instructions
-To use the Product-Service Playground, follow the steps below:
 
-1. Click below to access the application.
+## Prerequisites
 
-  [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/Fliproom/product-service/tree/main/fliproom)
+To set up and run the Ionic project, ensure you have the following prerequisites installed:
 
-2. In the StackBlitz environment, you will see the project code and a preview of the application.
+- Node.js: [Download Node.js](https://nodejs.org) and follow the installation instructions for your operating system.
+- Ionic CLI: After installing Node.js, open a terminal or command prompt and run the following command to install the Ionic CLI globally:
+  ```
+  npm install -g @ionic/cli
+  ```
 
-3. Click on the "Open in New Window" button in the top right corner of the preview to open the application in a separate tab.
+## Getting Started
 
-4. Interact with the application by clicking on the products, editing their details, or creating new products.
+Follow these steps to get the Ionic project up and running:
 
-5. The simulated API calls are automatically handled within the application, so you can focus on evaluating the desired aspects of the product-service.
+1. Clone the project repository to your local machine using Git or download the source code as a ZIP file.
+2. Open a terminal or command prompt and navigate to the project's root directory.
+3. Run the following command to install the project dependencies:
+   ```
+   npm install
+   ```
+4. Once the installation completes, you can start the development server by running:
+   ```
+   ionic serve
+   ```
+   This command will compile the project and open it in a web browser.
 
-6. Customize the service behavior by modifying the implementation of the service methods in the `src/app/services/product.service.ts` file. Save the changes, and the application will reflect the updated behavior.
+## Project Structure
 
-## Contributing
-Contributions to the Product-Service Playground project are not currently being accepted as this repository is used solely for evaluation purposes.
+The project structure is organized as follows:
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+- **src**: Contains the main source code of the Ionic application.
+  - **app**: Contains the root component, modules, and services of the application.
+  - **assets**: Contains static assets such as images, fonts, and icons.
+  - **environments**: Contains environment-specific configuration files.
+  - **theme**: Contains styling and theming-related files.
+- **www**: The output directory where the compiled code resides. This directory is generated when you build the project for production.
 
----
+Feel free to explore the project structure and make changes based on your application requirements.
 
-We hope you find the Product-Service Playground project useful for evaluating potential applicants and testing their skills in an isolated environment. If you have any questions or encounter any issues, please don't hesitate to reach out to us.
+## Available Commands
+
+Here are some commonly used commands for the Ionic project:
+
+- `ionic serve`: Starts the development server and opens the app in a web browser.
+
+
+Refer to the [Ionic documentation](https://ionicframework.com/docs) for more detailed information about available commands and customization options.
+
+
+## Acknowledgments
+
+We would like to acknowledge the following open-source projects and libraries used in this project:
+
+- Ionic Framework: [https://ionicframework.com](https://ionicframework.com)
+- Angular: [https://angular.io](https://angular.io)
+- Node.js: [https://nodejs.org](https://nodejs.org)
+
+A big thank you to the developers and contributors of these amazing tools!
